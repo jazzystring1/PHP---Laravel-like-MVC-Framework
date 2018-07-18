@@ -1,0 +1,55 @@
+NOTE
+
+PHP :
+
+MYSQL
+1. When dealing with dates, use "Y-%c-%d" date format for date comparison because the other date formats are having problems fetching record having more than 30 days.
+
+Array :
+	- Can be created using array('key' => value)
+	- Can be created also using [key => value]
+
+List :
+	*Same as Array*
+
+Tuples :
+	Considered as object accessin it via $obj->property
+
+------------------------------
+
+ERLANG :
+
+Tuples 
+	- {names, "John"}
+	- starts with {}
+	- Immutable
+Lists
+	- []
+	- Immutable
+In order to modify, you must create a copy of a specific tuple or list via pattern matching
+
+-----------------------------
+
+PYTHON:
+
+Tuples
+	- (Daniel, David)
+	- starts with ()
+	- Immutable means data can't be change nor alter
+	- The index must be integer in accessing data
+	- Can create tuple without "()"/Parenthesis seperated by comma like name = 'David', 'Daniel'
+
+Lists
+	- []
+	- The index must be integer in accessing data
+	- Putting key is invalid means ['number' : 123] is invalid
+
+Set
+	- {Daniel, David} (same as tuple in ERLANG)
+	- Does not support key indexing
+
+Dictionary
+	- {"name" : "Daniel"}
+	- Mutable
+	- The index is based on the key of the given value
+    
